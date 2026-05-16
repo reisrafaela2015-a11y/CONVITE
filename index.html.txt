@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Casamento</title>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background: linear-gradient(135deg, #f5f0ea 0%, #e6dfd5 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 40px 30px;
+            border-radius: 4px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+            text-align: center;
+            max-width: 450px;
+            width: 100%;
+            border: 1px solid #d4af37;
+            outline: 4px solid white;
+            outline-offset: -10px;
+        }
+        h2 { font-weight: 300; letter-spacing: 2px; color: #666; font-size: 0.9em; text-transform: uppercase; }
+        h1 { font-size: 2.8em; color: #b89742; font-family: Georgia, serif; margin: 15px 0; font-weight: 400; }
+        .data { font-size: 1.2em; letter-spacing: 3px; color: #333; margin: 25px 0; font-weight: bold; }
+        .local { font-size: 1em; color: #555; line-height: 1.6; margin-bottom: 30px; }
+        .btn {
+            display: block;
+            background: #b89742;
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 2px;
+            letter-spacing: 2px;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            transition: background 0.3s;
+        }
+        .btn:hover { background: #9e7f33; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h2>Convidam para o seu casamento</h2>
+        <h1>Nome & Nome</h1>
+        <p style="color: #888;">— SAVE THE DATE —</p>
+        <div class="data">SÁBADO, 17 DE OUTUBRO DE 2026<br>ÀS 17:00H</div>
+        <div class="local">
+            <strong>Espaço Das Flores</strong><br>
+            Rua das Palmeiras, 123 — São Paulo, SP
+        </div>
+        <!-- Mude o número abaixo (com DDD) para o seu WhatsApp -->
+        <a href="https://wa.me." class="btn" target="_blank">Confirmar Presença</a>
+    </div>
+
+</body>
+</html>
